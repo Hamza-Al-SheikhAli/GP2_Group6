@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container my-5">
+    <!-- Introduction Section -->
+    <div class="text-center">
+        <h1 class="display-4">Welcome to SecureAuth</h1>
+        <p class="lead">
+            Revolutionizing online authentication with seamless, secure, and fast hardware-based solutions.
+        </p>
+    </div>
+
+    <!-- About Section -->
+    <div class="mt-5">
+        <h2>About Our Authentication Method</h2>
+        <p>
+            SecureAuth uses cutting-edge hardware authentication technology to ensure your identity is always protected.
+            Our solution provides:
+        </p>
+        <ul>
+            <li><strong>Seamless Integration:</strong> Works effortlessly with your existing systems.</li>
+            <li><strong>Enhanced Security:</strong> Leveraging hardware-level protection against threats.</li>
+            <li><strong>Blazing Fast:</strong> Authentication in a few seconds.</li>
+        </ul>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="text-center mt-5">
+        <h3>Ready to experience the future of authentication?</h3>
+        <a href="{{ url_for('signup') }}" class="btn btn-primary btn-lg mt-3">Sign Up Now</a>
+        <a href="{{ url_for('signin') }}" class="btn btn-secondary btn-lg mt-3">Sign In</a>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="mt-5">
+        <h4>Contact Us</h4>
+        <p>
+            Have questions or need more information? Reach out to our team:
+        </p>
+        <ul>
+            <li>Email: <a href="mailto:hmalsheikhali20@cit.just.edu.jo">hmalsheikhali20@cit.just.edu.jo</a></li>
+            <li>Email: <a href="mailto:amalashqar20@cit.just.edu.jo">amalashqar20@cit.just.edu.jo</a></li>
+            <li>Email: <a href="mailto:hwalhawamdeh20@cit.just.edu.jo">awalhawamdeh20@cit.just.edu.jo</a></li>
+            <li>Email: <a href="mailto:mhabujarour20@cit.just.edu.jo">mhabujarour20@cit.just.edu.jo</a></li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
