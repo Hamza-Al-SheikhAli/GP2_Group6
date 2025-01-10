@@ -3,7 +3,7 @@
 import mysql.connector
 
 #This is our connection 
-mydb = mysql.connector.connect(host = 'localhost' ,user = 'root', passwd = 'hamzash079' )
+mydb = mysql.connector.connect(host = 'localhost' ,user = 'root', passwd = ******** )
 
 
 #cursor is an automation robot that do commands for you to the database
