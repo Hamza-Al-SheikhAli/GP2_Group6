@@ -15,7 +15,7 @@ app = Flask(__name__) #Any app must contain an unique name, here how to give it 
 
 
 #Database, here we connect our app with the database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:hamzash079@localhost/users'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:*******@localhost/users'
 
 #Adding CRSF token
 app.config['SECRET_KEY'] = "hello"
